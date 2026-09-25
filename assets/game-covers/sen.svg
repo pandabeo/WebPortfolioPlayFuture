@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Sen</title>
+  <desc id="desc">A soft blue adventure game cover for Sen.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ed8ee"/>
+      <stop offset="1" stop-color="#eff8f3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="604" cy="154" r="86" fill="#fff9d2" opacity=".9"/>
+  <path d="M0 420c120-92 222-50 320-6 95 43 189 56 280-2 85-55 137-42 200 8v180H0z" fill="#5b9d91"/>
+  <path d="M0 468c124-74 219-10 334 22 111 31 206 16 288-33 72-43 119-37 178 5v138H0z" fill="#2d625f"/>
+  <path d="M395 392c-22-42-9-76 24-104 18 34 21 67 5 101" fill="#f1c7a8"/>
+  <path d="M411 308c-25-54 10-94 58-102 31 36 24 75-5 105" fill="#263b5a"/>
+  <text x="78" y="118" fill="#17384e" font-family="Georgia, serif" font-size="86" font-weight="700">Sen</text>
+  <text x="84" y="164" fill="#28576a" font-family="Verdana, sans-serif" font-size="20" letter-spacing="6">AN ADVENTURE</text>
+</svg>

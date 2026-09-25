@@ -130,20 +130,8 @@
         </div>
 
 
-      <button class="desktop-shortcut desktop-shortcut-left has-hover-trailer" type="button" data-target-window="game-detail-window" data-game-id="thrifting-101" data-hover-trailer-card="true">
-          <span class="desktop-shortcut-media">
-            <img class="action-icon-image thrifting-shortcut-image" src="assets/mkzmwz.png" alt="" aria-hidden="true" />
-            <video class="desktop-shortcut-trailer collection-card-trailer" data-hover-preview="true" preload="none" muted loop playsinline aria-hidden="true">
-              <source src="assets/game-trailers/thrifting-101-trailer.mp4" type="video/mp4" />
-            </video>
-          </span>
-          <span class="desktop-shortcut-trailer-label">Trailer</span>
-          <span class="action-label">Thrifting 101</span>
-          <span class="desktop-shortcut-badge">Latest Release</span>
-          <span class="desktop-shortcut-meta">Play Now</span>
-        </button>
-
-      <button class="desktop-shortcut desktop-shortcut-coy has-hover-trailer" type="button" data-target-window="game-detail-window" data-game-id="coy-commute" data-hover-trailer-card="true">
+      <div class="featured-game-shortcuts" aria-label="Featured games">
+        <button class="desktop-shortcut has-hover-trailer" type="button" data-target-window="game-detail-window" data-game-id="coy-commute" data-hover-trailer-card="true">
           <span class="desktop-shortcut-media">
             <img class="action-icon-image coy-shortcut-image" src="assets/game-covers/coy-commute.png" alt="" aria-hidden="true" />
             <video class="desktop-shortcut-trailer collection-card-trailer" data-hover-preview="true" preload="none" muted loop playsinline aria-hidden="true">
@@ -152,9 +140,33 @@
           </span>
           <span class="desktop-shortcut-trailer-label">Trailer</span>
           <span class="action-label">Coy Commute</span>
-          <span class="desktop-shortcut-badge">1st Gameloft GameDev Mentorship</span>
-          <span class="desktop-shortcut-meta">Play Now</span>
+          <span class="desktop-shortcut-badge">1st Place &amp; People's Choice Gamedev Mentorship Program</span>
+          <span class="desktop-shortcut-meta">Award winner</span>
         </button>
+
+        <button class="desktop-shortcut" type="button" data-target-window="game-detail-window" data-game-id="how-many-his-for-a-goodbye">
+          <span class="desktop-shortcut-media">
+            <img class="action-icon-image" src="assets/game-covers/how-many-his.gif" alt="" aria-hidden="true" />
+          </span>
+          <span class="desktop-shortcut-trailer-label" aria-hidden="true"></span>
+          <span class="action-label">how many 'hi's for a goodbye</span>
+          <span class="desktop-shortcut-badge">Latest Release</span>
+          <span class="desktop-shortcut-meta">Open project</span>
+        </button>
+
+        <button class="desktop-shortcut has-hover-trailer" type="button" data-target-window="game-detail-window" data-game-id="thrifting-101" data-hover-trailer-card="true">
+          <span class="desktop-shortcut-media">
+            <img class="action-icon-image thrifting-shortcut-image" src="assets/mkzmwz.png" alt="" aria-hidden="true" />
+            <video class="desktop-shortcut-trailer collection-card-trailer" data-hover-preview="true" preload="none" muted loop playsinline aria-hidden="true">
+              <source src="assets/game-trailers/thrifting-101-trailer.mp4" type="video/mp4" />
+            </video>
+          </span>
+          <span class="desktop-shortcut-trailer-label">Trailer</span>
+          <span class="action-label">Thrifting 101</span>
+          <span class="desktop-shortcut-badge">Must Try</span>
+          <span class="desktop-shortcut-meta">Play now</span>
+        </button>
+      </div>
 
         <section class="home-window">
           <div class="home-titlebar">
@@ -472,6 +484,11 @@
               </div>
               <p class="game-filter-count" data-game-filter-count></p>
               <div class="collection-grid xp-icon-grid">
+              <button class="collection-card fallback-game-card" type="button" data-target-window="game-detail-window" data-game-id="how-many-his-for-a-goodbye">
+                <img src="assets/game-covers/how-many-his.gif" alt="how many 'hi's for a goodbye cover" loading="lazy" />
+                <span class="card-title">how many 'hi's for a goodbye</span>
+                <span class="card-description">A 15-minute narrative game about the farewell between two loving siblings.</span>
+              </button>
               <button class="collection-card has-hover-trailer" type="button" data-target-window="game-detail-window" data-game-id="thrifting-101" data-hover-trailer-card="true">
                 <span class="collection-card-media">
                   <img src="assets/game-covers/thrifting-101.png" alt="Thrifting 101 cover" loading="lazy" />
@@ -547,6 +564,16 @@
                 <span class="card-title">BlocknOut</span>
                 <span class="card-description">Third-person blockout prototype focused on action readability and level structure.</span>
               </button>
+              <button class="collection-card fallback-game-card" type="button" data-target-window="game-detail-window" data-game-id="dien-kien-trung-showcase">
+                <img src="assets/game-covers/dien-kien-trung-showcase.svg" alt="Dien Kien Trung Showcase cover" loading="lazy" />
+                <span class="card-title">Dien Kien Trung Showcase</span>
+                <span class="card-description">Showcase release with black-background and white-background downloadable builds.</span>
+              </button>
+              <button class="collection-card fallback-game-card" type="button" data-target-window="game-detail-window" data-game-id="sen">
+                <img src="assets/game-covers/sen.svg" alt="Sen cover" loading="lazy" />
+                <span class="card-title">Sen</span>
+                <span class="card-description">Collaborative adventure project released as a downloadable build.</span>
+              </button>
               <button class="collection-card fallback-game-card" type="button" data-target-window="game-detail-window" data-game-id="hours-before-blue">
                 <img src="assets/game-covers/hours-before-blue.png" alt="Hours Before Blue cover" loading="lazy" />
                 <span class="card-title">Hours Before Blue</span>
@@ -613,7 +640,7 @@
                 </section>
                 <section class="game-detail-section is-hidden" data-game-detail-stills-section>
                   <div class="game-detail-stills-heading">
-                    <h4>In-Game Image</h4>
+                    <h4>In-Game Images</h4>
                   </div>
                   <div class="game-detail-stills" data-game-detail-stills></div>
                 </section>

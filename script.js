@@ -307,6 +307,46 @@ const windowRouteMap = {
 };
 
 const gameDetails = {
+  "how-many-his-for-a-goodbye": {
+    title: "how many 'hi's for a goodbye",
+    routeSlug: "how-many-his",
+    cover: "assets/game-covers/how-many-his.gif",
+    shortDescription: "A short narrative game about saying goodbye between two loving siblings.",
+    overview:
+      "A roughly 15-minute narrative experience about the farewell between two loving siblings as one leaves to study abroad, and how a lifetime of greetings can still fall short at goodbye.",
+    meta: [
+      "Role: Capstone collaborator",
+      "Format: Narrative experience",
+      "Length: Approximately 15 minutes",
+      "Status: Downloadable on itch.io",
+    ],
+    stills: [
+      "https://img.itch.zone/aW1hZ2UvNTAyOTk1My8zMDE1MDU4NC5wbmc=/original/YR2pLc.png",
+      "https://img.itch.zone/aW1hZ2UvNTAyOTk1My8zMDE1MDU4MS5wbmc=/original/IFa0iH.png",
+      "https://img.itch.zone/aW1hZ2UvNTAyOTk1My8zMDE1MDU4My5wbmc=/original/%2FLkyKb.png",
+      "https://img.itch.zone/aW1hZ2UvNTAyOTk1My8zMDE1MDU4Mi5wbmc=/original/%2FCq502.png",
+      "https://img.itch.zone/aW1hZ2UvNTAyOTk1My8zMDE1MDU4NS5wbmc=/original/z%2BD1Oi.png",
+    ],
+    actions: [
+      {
+        label: "Download Game",
+        href: "https://github.com/pandabeo/WebPortfolioPlayFuture/releases/download/game-downloads/How.many.hi.s.for.a.goodbye.zip",
+        download: "how-many-his-for-a-goodbye.zip",
+      },
+      { label: "Open itch.io", href: "https://pandabeo04.itch.io/how-many-his-for-a-goodbye" },
+    ],
+    webPlayable: false,
+    devlog: [
+      {
+        title: "A focused emotional arc",
+        body: "The project keeps its scope compact so the goodbye can land as one clear, intimate narrative moment rather than a longer set of disconnected scenes.",
+      },
+      {
+        title: "Capstone release",
+        body: "The downloadable release is presented as a collaborative capstone project supervised by Toby Do and Agnieszka Kiejziewicz.",
+      },
+    ],
+  },
   "thrifting-101": {
     title: "Thrifting 101",
     routeSlug: "thrifting",
@@ -489,7 +529,14 @@ const gameDetails = {
       "Format: Browser release",
       "Status: Published on itch.io",
     ],
-    actions: [{ label: "Open itch.io", href: "https://pandabeo04.itch.io/my-color-is-not-colorfull" }],
+    actions: [
+      {
+        label: "Download Game",
+        href: "https://github.com/pandabeo/WebPortfolioPlayFuture/releases/download/game-downloads/MyColorIsNotColorfull.zip",
+        download: "MyColorIsNotColorfull.zip",
+      },
+      { label: "Open itch.io", href: "https://pandabeo04.itch.io/my-color-is-not-colorfull" },
+    ],
     devlog: [],
   },
   equilibrium: {
@@ -554,7 +601,59 @@ const gameDetails = {
       "Format: Downloadable build",
       "Status: Published on itch.io",
     ],
-    actions: [{ label: "Open itch.io", href: "https://pandabeo04.itch.io/blocknout" }],
+    actions: [
+      {
+        label: "Download Game",
+        href: "https://github.com/pandabeo/WebPortfolioPlayFuture/releases/download/game-downloads/BlocknOutUpdate2.zip",
+        download: "BlocknOutUpdate2.zip",
+      },
+      { label: "Open itch.io", href: "https://pandabeo04.itch.io/blocknout" },
+    ],
+    devlog: [],
+  },
+  "dien-kien-trung-showcase": {
+    title: "Dien Kien Trung Showcase",
+    routeSlug: "dien-kien-trung",
+    cover: "assets/game-covers/dien-kien-trung-showcase.svg",
+    shortDescription: "Showcase release presented through black-background and white-background downloadable builds.",
+    overview: "A showcase build published with two visual variants, giving viewers a choice between black-background and white-background presentations.",
+    meta: [
+      "Role: Game designer and developer",
+      "Format: Downloadable showcase build",
+      "Variants: Black background and white background",
+      "Status: Published on itch.io",
+    ],
+    actions: [
+      {
+        label: "Download Black Build",
+        href: "https://github.com/pandabeo/WebPortfolioPlayFuture/releases/download/game-downloads/Spec3BlackBGBuild-1.zip",
+        download: "Spec3BlackBGBuild-1.zip",
+      },
+      { label: "Open itch.io", href: "https://pandabeo04.itch.io/dien-kien-trung-showcase" },
+    ],
+    webPlayable: false,
+    devlog: [],
+  },
+  sen: {
+    title: "Sen",
+    routeSlug: "sen",
+    cover: "assets/game-covers/sen.svg",
+    shortDescription: "Collaborative adventure project released as a downloadable build.",
+    overview: "A collaborative adventure project made by PandaBeo04, Rotten CAM, Ciiverix, and LanAshley, available as a downloadable release.",
+    meta: [
+      "Role: Collaborator",
+      "Format: Downloadable adventure build",
+      "Status: Published on itch.io",
+    ],
+    actions: [
+      {
+        label: "Download Game",
+        href: "https://github.com/pandabeo/WebPortfolioPlayFuture/releases/download/game-downloads/Sen_FinalBuild.zip",
+        download: "Sen_FinalBuild.zip",
+      },
+      { label: "Open itch.io", href: "https://pandabeo04.itch.io/sen" },
+    ],
+    webPlayable: false,
     devlog: [],
   },
   "hours-before-blue": {
@@ -661,9 +760,27 @@ const gameDetails = {
   },
 };
 
-const gameCollectionOrder = ["thrifting-101", "coy-commute", "ame-no-naka", "d-fishy-finals"];
+const gameCollectionOrder = [
+  "how-many-his-for-a-goodbye",
+  "thrifting-101",
+  "coy-commute",
+  "d-fishy-finals",
+  "ame-no-naka",
+  "a-game-about-me",
+  "tales-of-a-playboy",
+  "my-color-is-not-colorfull",
+  "equilibrium",
+  "chaotet",
+  "blocknout",
+  "dien-kien-trung-showcase",
+  "sen",
+  "hours-before-blue",
+  "into-the-dungeon",
+  "homeward",
+];
 
 const gameFilterTags = {
+  "how-many-his-for-a-goodbye": ["narrative", "downloadable"],
   "thrifting-101": ["playable", "unity", "2d", "downloadable"],
   "tales-of-a-playboy": ["playable", "unity", "narrative", "downloadable"],
   "ame-no-naka": ["playable", "unity", "2d", "narrative", "downloadable"],
@@ -673,6 +790,8 @@ const gameFilterTags = {
   equilibrium: ["playable", "narrative", "downloadable"],
   "d-fishy-finals": ["downloadable", "narrative"],
   blocknout: ["3d"],
+  "dien-kien-trung-showcase": ["downloadable"],
+  sen: ["downloadable"],
   "hours-before-blue": ["downloadable", "narrative"],
   chaotet: ["downloadable", "3d", "unity"],
   "into-the-dungeon": ["downloadable", "unity"],
@@ -713,6 +832,15 @@ const gameFilterSearchEntries = [
 ];
 
 const gameCaseStudies = {
+  "how-many-his-for-a-goodbye": {
+    problem: "The project needed to make a goodbye between siblings feel personal and memorable within a short play session. The portfolio entry should communicate that intimate narrative focus without flattening it into a generic adventure label.",
+    role: "I contributed to the collaborative capstone presentation and release framing, making the project easy to understand from the portfolio before viewers open the downloadable build.",
+    tools: "Narrative game design, collaborative capstone production, downloadable release packaging, itch.io hosting, and portfolio project presentation.",
+    built: "I built a focused project entry with the cover, emotional premise, project credits, release link, and concise process notes so the short experience has clear context.",
+    systems: "Short-form narrative pacing, sibling relationship framing, downloadable release access, external project routing, and reusable detail-page rendering.",
+    decisions: "I kept the description centered on the farewell and the project's compact length. That gives viewers the emotional premise and expected commitment before they decide to download it.",
+    result: "The latest itch.io release now appears as the portfolio's featured game and has a complete detail page that credits its capstone context and direct release path.",
+  },
   "thrifting-101": {
     problem: "The core challenge was making fashion interpretation feel like reading a person, not solving a shopping checklist. Customer requests needed enough ambiguity to be funny and replayable, while the scoring system still had to be understandable so players could improve after each attempt.",
     role: "I designed and implemented the full request-response loop: customer prompts, outfit item data, scoring rules, submission flow, result feedback, and the Unity UI behavior that connects each step. I also handled the WebGL build and release presentation so the project could be played directly from itch.io.",
@@ -793,6 +921,24 @@ const gameCaseStudies = {
     systems: "Third-person movement context, blockout layout, encounter pacing, action readability, external release linking, and project-detail rendering.",
     decisions: "I described the prototype as a design test rather than a finished visual showcase. This makes the roughness intentional and helps reviewers evaluate the correct part of the work.",
     result: "BlocknOut now reads as a purposeful action-design prototype focused on structure, readability, and iteration.",
+  },
+  "dien-kien-trung-showcase": {
+    problem: "A showcase download can be easy to overlook when it is presented as only a file link. The entry needed to explain the two available visual variants and make the release purpose visible.",
+    role: "I prepared the showcase entry, variant metadata, cover presentation, and itch.io routing so viewers can choose the build that fits their preferred presentation.",
+    tools: "Showcase presentation, downloadable build packaging, itch.io hosting, visual-variant metadata, and portfolio project routing.",
+    built: "I built a detail page that surfaces the black-background and white-background build options, explains the release format, and keeps the external download page one click away.",
+    systems: "Variant-based release presentation, downloadable build routing, project metadata, external action links, and reusable game detail UI.",
+    decisions: "I made the build variants part of the project identity instead of hiding them in a download note. This helps reviewers understand why two archives are available.",
+    result: "The showcase now has a clear portfolio home with a visual cover, variant summary, and direct access to both downloadable builds through itch.io.",
+  },
+  sen: {
+    problem: "The collaborative release needed a concise portfolio entry that made its adventure format and team contribution clear even though the published build is downloadable rather than browser-embedded.",
+    role: "I framed the project as a collaboration, credited the listed team, and organized the downloadable release path inside the same detail layout as the rest of the game collection.",
+    tools: "Collaborative adventure development, downloadable build packaging, itch.io hosting, project credits, and portfolio release presentation.",
+    built: "I built a project entry with a cover, collaborator context, downloadable format metadata, and a direct itch.io action so the release is easy to evaluate.",
+    systems: "Adventure project framing, collaboration credits, external release routing, downloadable build metadata, and reusable detail-page rendering.",
+    decisions: "I kept the entry deliberately compact because the itch.io page provides limited public description beyond the adventure category and team credits.",
+    result: "Sen is now represented in the collection with accurate collaboration context and a clear release path without inventing unsupported mechanics or story details.",
   },
   "hours-before-blue": {
     problem: "This small jam project needed to communicate cozy pacing and compact scope without being overshadowed by larger projects. The case study had to make the limited scope feel intentional.",
@@ -3814,6 +3960,7 @@ function renderGameDetail(gameId) {
   if (gameDetailCover) {
     gameDetailCover.src = game.cover;
     gameDetailCover.alt = `${game.title} cover`;
+    gameDetailCover.classList.toggle("is-itch-cover", gameId === "how-many-his-for-a-goodbye");
   }
 
   if (gameDetailMeta) {
@@ -3892,7 +4039,11 @@ function renderGameDetail(gameId) {
   }
 
   if (gameDetailStillsSection && gameDetailStills) {
-    const stillPaths = game.trailer?.src ? getGameStillPaths(gameId) : [];
+    const stillPaths = Array.isArray(game.stills) && game.stills.length
+      ? game.stills
+      : game.trailer?.src
+        ? getGameStillPaths(gameId)
+        : [];
 
     gameDetailStills.innerHTML = "";
 
