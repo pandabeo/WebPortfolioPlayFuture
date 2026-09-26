@@ -1738,11 +1738,20 @@ body.is-dark .desktop-shortcut-badge {
   bottom: calc(var(--taskbar-height) + 18px);
   z-index: 3;
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: space-between;
   gap: clamp(24px, 3vw, 64px);
   width: min(1520px, calc(100% - 120px));
   transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.featured-game-shortcut-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(18px, 2vh, 32px);
+  width: min(260px, 24vw);
 }
 
 .desktop-shortcut {
@@ -1770,6 +1779,7 @@ body.is-dark .desktop-shortcut-badge {
   right: auto;
   bottom: auto;
   width: min(260px, 24vw);
+  pointer-events: auto;
 }
 
 .featured-game-shortcuts .desktop-shortcut-media {
@@ -1817,7 +1827,7 @@ body.is-dark .desktop-shortcut-badge {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: min(260px, 24vw);
+  width: 100%;
   height: 3.6em;
   line-height: 1.1;
 }
@@ -4613,6 +4623,11 @@ body.is-dark .card-badge {
 
   .featured-game-shortcuts .desktop-shortcut {
     width: min(180px, 30vw);
+  }
+
+  .featured-game-shortcut-stack {
+    width: min(180px, 30vw);
+    gap: 18px;
   }
 
   .featured-game-shortcuts .desktop-shortcut-media {
